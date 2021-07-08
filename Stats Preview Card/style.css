@@ -1,0 +1,144 @@
+body {
+    font-size: 15px;
+    background: hsl(233, 47%, 7%);
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: hsl(244, 38%, 16%);
+}
+
+p {
+    margin-bottom: 0;
+    line-height: 22px;
+    padding: 0 9%;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+main {
+   padding-top: 15%;
+   padding-right: 5%;
+   padding-left: 5%;
+}
+
+#image img {
+    width: 100%;
+}
+
+#caption {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 10%;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1 {
+    font-weight: 700;
+    margin-top: 0;
+    padding: 10% 5% 0;
+}
+
+#analytics {
+    text-align: center;
+    padding: 0 15% 10%;
+    font-family: Inter, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.6rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+#analytics div {
+    margin-bottom: 10%;
+    padding-bottom: 15%;
+}
+
+.numbers {
+    display: block;
+    font-weight: 700;
+    padding-top: 2.5%;
+    padding-bottom: 7%;
+    font-size: 1.3rem;
+    color: hsla(0, 0%, 100%);
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%)
+}
+
+a {
+    text-decoration: none;
+    color: rgb(133, 74, 189);
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 10% 10% 8% 10%;
+    }
+
+    #analytics div {
+        display: inline-block;
+        margin-bottom: 0;
+        padding-right: 9%;
+    }
+
+    #analytics {
+        padding-bottom: 0;
+        padding: 0 9% 0;
+        text-align: left;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    section {
+        width: 50%;
+    }
+
+    section :nth-of-type(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        height: 100%;
+    }
+
+    #image {
+        height: 100%;
+    }
+
+    h1, p {
+        text-align: left;
+    }
+
+    h1 {
+        padding-left: 9%;
+        padding-top: 14%;
+        font-size: 2.0rem;
+        width: 80%;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 30px;
+        width: 60%;
+    }
+
+    .numbers {
+        font-size: 1.2rem;
+    }
+}
+
+
