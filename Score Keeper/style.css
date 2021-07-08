@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quattrocento Sans', sans-serif;;
+}
+
+h2 span {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+img {
+    width: 650px;
+    height: 300px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    display: inline;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+button {
+    width: 200px;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+#p1Button {
+    background-color: rgb(12, 168, 134);
+    color: white;
+}
+
+#p2Button {
+    background-color: rgb(31, 31, 221);
+    color: white;
+}
+
+#reset {
+    background-color: rgb(223, 54, 110);
+    color: white;
+}
+
+#buttons {
+    padding: 1em;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
