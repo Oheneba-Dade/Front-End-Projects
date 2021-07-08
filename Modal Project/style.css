@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-image: url(/vera-gorbunova-rFfcNGFoYpA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    background-color: rgb(59, 158, 197);
+    padding: 0.4em;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 3px;
+    border: 1px solid rgb(59, 158, 197);
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(59, 158, 197);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 246px;
+    display: none;
+    box-shadow: 0px 0px 50px;
+}
+
+span {
+    font-size: 2rem;
+    color: rgb(167, 69, 69);
+    align-self: flex-end;
+    padding-right: 1em;
+}
+
+span:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
