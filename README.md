@@ -1,2 +1,2 @@
 # Front-End-Projects
-Some projects that I have worked on.
+Some projects involving HTML, CSS, and JavaScript that I have worked on.
