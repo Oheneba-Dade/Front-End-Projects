@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 2em 2em 5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: block;
+    width: 100px;
+    margin: 2em 2em 0 2em;
+}
+
+body {
+    background: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+}
+ 
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.8em;
+}
+
+p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    line-height: 20px;
+}
+
+#mockup {
+    max-width: 280px;
+    margin: 0.8em auto;
+}
+
+button {
+    width: 180px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    padding: 0.8em;
+    border-radius: 30px;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:active {
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+#side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    width: 25px;
+    height: 25px;
+    margin: 0.2em;
+}
+
+.link:active {
+    background-color: hsl(300, 69%, 71%);
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        flex-direction: row;
+        margin: 6em 2em 0 5em;
+        justify-content: flex-start;
+    }
+
+    #logo {
+        width: 200px;
+        margin-left: 5em;
+    }
+
+    #mockup {
+        max-width: 650px;
+        margin-left: 0;
+        margin-right: 2.5em;
+        max-height: 500px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    p {
+        font-size: 1.2rem;
+        text-align: left;
+        margin-left: 0;
+        line-height: 30px;
+    }
+
+    button {
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+
+    #social {
+       justify-content: flex-end;
+       margin-right: 100px;
+       margin-top: 50px;
+    }
+
+    .link {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}
