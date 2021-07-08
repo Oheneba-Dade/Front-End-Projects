@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    margin-top: 2em;
+    padding: 1em 1em 0.25em 1em;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#stats + p {
+    text-align: center;
+    padding: 0.95em;
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+
+.reviews {
+    background-color: hsl(340, 9%, 86%);
+    text-align: center;
+    margin: 2em;
+    padding: 1em 3em;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.reviews img {
+    padding-bottom: 0.4em;
+}
+
+.card {
+    color: white;
+    background: hsl(300, 43%, 22%);
+    margin: 1.6em;
+    padding: 1em;
+    font-size: 0.8rem;
+}
+
+.user {
+    display: flex;
+    padding: 1em;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 12%;
+}
+
+.user p {
+    display: inline;
+    padding-left: 1em;
+    line-height: 1.4em;
+}
+
+p span {
+    color: hsl(333, 80%, 67%);
+}
+
+.user + p {
+    padding: 1.6em;
+    line-height: 1.5em;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        display: flex;
+    }
+
+    #name {
+        width: 40%;
+    }
+
+    #stats {
+        text-align: left;
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    #stats + p {
+        font-size: 1.1em;
+        text-align: left;
+        padding-left: 2.8em;
+    }
+
+    #review {
+        margin-top: 5em;
+    }
+
+    .reviews p {
+        display: inline;
+        font-size: 1.2em;
+    }
+
+    .reviews:nth-of-type(2) {
+        transform: translateX(2em);
+    }
+
+    .reviews:nth-of-type(3) {
+        transform: translateX(4em);
+    }
+
+    #cards {
+        display: flex;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .user p {
+        font-size: 0.9rem;
+    }
+
+    .user + p {
+        line-height: 2em;
+        font-size: 0.9rem;
+    }
+
+    .card:nth-of-type(2) {
+       transform: translate(0em, 2em);
+    }
+
+    .card:nth-of-type(3) {
+        transform: translate(0em, 4em);
+     }
+
+}
