@@ -4,7 +4,6 @@ const main = document.querySelector('main');
 const APIKey = 'b42cdbcf7b6d473d94c85730211308';
 const body = document.querySelector('body');
 const loading = document.getElementById('loading');
-const error = document.getElementById('error');
 
 btn.addEventListener('click', async () => {
     //display loading message
@@ -63,10 +62,10 @@ function displayInfo(place) {
     
     
     if (place.current.is_day === 0) {
-        document.body.style.backgroundColor = 'rgb(50, 71, 105)';
+        document.body.style.backgroundImage = "url('images/night.jpg')"
         document.body.style.color = 'white';
     } else {
-        document.body.style.backgroundColor = 'rgb(242, 242, 228)';
+        document.body.style.backgroundImage = "url('images/day.jpg')"
         document.body.style.color = 'black'
     }
 }
