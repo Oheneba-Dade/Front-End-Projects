@@ -8,7 +8,7 @@ body {
 }
 
 .imageToggle {
-    background: url('weather.jpg') no-repeat center fixed;
+    background: url('images/weather.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -57,4 +57,20 @@ img {
     height: 20%;
 }
 
+#error {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#loading {
+    display: none;
+}
+
+#loadingImg {
+    height: 300px;
+}
+
+span p {
+    font-weight: 700;
+}
 
